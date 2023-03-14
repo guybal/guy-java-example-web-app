@@ -12,7 +12,7 @@ public class HelloController {
 		return "Greetings from Spring Boot + Tanzu!";
 	}
 
-	@GetMapping("/")
+	@GetMapping("/hello")
 	public String hello() {
 		return "This application is deployed on TAP v1.4!!!";
 	}
